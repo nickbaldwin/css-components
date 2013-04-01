@@ -1,0 +1,67 @@
+/* === Showcase === */
+
+// Huge text area used as a lead at the top of a page
+.soapbox {
+  .soapbox_title {}
+  .soapbox_subtitle {}
+  .soapbox_lead {} // Longer descriptive text to lead before body copy
+  .soapbox_text {}
+}
+
+// Billboard-like block for large media items
+.stage {
+  .stage_title {}
+  .stage_actor {} // A figure of interest on the stage
+  .stage_secondary {} // Block of secondary focus on the stage
+}
+
+/* === Content === */
+
+// Text block with heavy emphasis in body content
+.proclaim {
+  .proclaim_title {}
+  .proclaim_subtitle {}
+  .proclaim_lead {} // Longer descriptive text to lead before body copy
+  .proclaim_text {}
+}
+
+// Image or Video with optional title, subtitle, and description
+.media {
+  .media_image {}
+  .media_video {}
+  .media_title {}
+  .media_subtitle {}
+  .media_description {}
+  &.-landscape {}
+}
+
+/* === Specialized === */
+
+// Branding element for a company or person
+.brand {
+  .brand_logo {}
+  &.-our {}
+  &.-avatar {}
+}
+
+/* === Utility === */
+
+// Add visual effects to emphasize any element
+.spotlight {}
+
+// Light emphasis
+.fore {}
+
+// Visually separate content
+.island {}
+
+// List of items
+.list {}
+
+/* === Interaction === */
+
+// Navigation Bar
+.navbar {}
+
+// Button
+.btn {}
