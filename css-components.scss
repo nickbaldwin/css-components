@@ -35,9 +35,10 @@
   &.-landscape {}
 }
 
-// Promotional block used for conversion purposes with a call to action
+// Promotional block used for conversion purposes, containing a call to action and possibly a hook
 .rally {
-  .rally-call-to-action {}
+  .rally_hook {}
+  .rally_call-to-action {}
 }
 
 /* === Specialized === */
